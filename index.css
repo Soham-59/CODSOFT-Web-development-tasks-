@@ -1,0 +1,89 @@
+nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color:rgb(245, 114, 43);
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.menu{
+    margin-left: 55%;
+}
+.menu a{
+    
+    color:white;
+    font-size: 25px ;
+    text-decoration: none;
+    justify-content:space-around;
+padding-left: 10px;
+padding-top: 0%;
+padding-bottom: 0%;
+}
+.menu a:before{
+    border-bottom: 0px;
+
+}
+.menu a:hover{
+    border-bottom: 2px solid indianred;
+    border-right: 30px;
+    color:rgb(244, 141, 141);
+}
+
+
+body{
+    background-color: rgb(2, 0, 27);
+   
+}
+.photo{
+    height:550px;
+    width:550px;
+    border-radius: 50%;
+    margin-left: 50px;
+    border-style:solid;
+    border-color:rgb(247, 163, 37);
+    float: left;
+    
+}
+
+.intro{
+    color:white;
+    font-size: 30px;
+    margin-left: 50%;
+    margin-top: 10%;
+    
+
+}
+.skill{
+    text-decoration: dotted;
+}
+
+@keyframes colorchange{
+    0%{
+        color:white;
+    }
+    50%{
+        color:rgb(30, 131, 131)
+    }
+    100%{
+        color:white;
+    }
+}
+.menu a{
+animation-name:colorchange;
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count:infinite ;
+
+
+}
+.intro{
+    animation-name:colorchange;
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count:infinite ;
+
+
+}
