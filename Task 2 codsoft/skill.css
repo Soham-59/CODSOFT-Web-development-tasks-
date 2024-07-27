@@ -1,0 +1,126 @@
+nav{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color:rgb(245, 114, 43);
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.menu{
+    margin-left: 55%;
+}
+.menu a{
+    
+    color:white;
+    font-size: 25px ;
+    text-decoration: none;
+    justify-content:space-around;
+padding-left: 10px;
+padding-top: 0%;
+padding-bottom: 0%;
+}
+.menu a:before{
+    border-bottom: 0px;
+
+}
+.menu a:hover{
+    border-bottom: 2px solid indianred;
+    border-right: 30px;
+    color:rgb(244, 141, 141);
+}
+
+
+body{
+    background-color: rgb(2, 0, 27);
+   
+}
+.photo{
+    height:550px;
+    width:550px;
+    border-radius: 50%;
+    margin-left: 50px;
+    border-style:solid;
+    border-color:rgb(247, 163, 37);
+    float: left;
+    
+}
+@keyframes colorchange{
+    0%{
+        color:white;
+    }
+    50%{
+        color:rgb(30, 131, 131)
+    }
+    100%{
+        color:white;
+    }
+}
+.menu a{
+animation-name:colorchange;
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count:infinite ;
+
+
+}
+
+.one{
+    margin-top:100px;
+    color:white;
+    font-size: 25px;
+    animation-name:colorchange;
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count:infinite ;
+
+    justify-content: center;
+    margin-left: 10%;
+}
+.images{
+    height:100px;
+    width:100px;
+    display:inline;
+}
+.skill{
+   text-decoration: solid;
+    color:rgb(245, 26, 26);
+    text-decoration: none;
+    font-size: 40px;
+   text-align: center;
+   animation-name:colorchangeofheader;
+   animation-duration: 10s;
+   animation-delay: 2s;
+   animation-iteration-count:infinite ;
+}
+
+.skill::before{
+    border-bottom: 0px;
+}
+.skill:hover{
+    border-bottom: 2px;
+}
+@keyframes colorchangeofheader{
+    0%{
+        color:rgb(252, 252, 76);
+    }
+    20%{
+        color:red;
+    }
+    40%{
+        color:rgb(43, 243, 43);
+    }
+
+    60%{
+        color:rgb(75, 75, 244);
+    }
+    80%{
+        color:rgb(249, 0, 41);
+    }
+    100%{
+        color:rgb(41, 239, 239);
+    }
+
+}
